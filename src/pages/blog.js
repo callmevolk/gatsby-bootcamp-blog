@@ -28,7 +28,7 @@ const BlogPage = () => {
     <Layout>
       <Head title="Blog" />
       <h1>Blog</h1>
-      <p>Posts will show up here later on.</p>
+      <p>Lista blog postova</p>
       <ol className={blogStyles.posts}>
         {
           data.allContentfulBlogPost.edges.map(edge => {

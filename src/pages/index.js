@@ -7,10 +7,10 @@ import Head from '../components/Head';
 const IndexPage = () => {
   return (
   <Layout>
-    <Head title="Home" />
-    <h1>Hello!</h1>
-    <h2>I am Sam and I like ham.</h2>
-    <p>Need a developer? <Link to="/contact">Contact me</Link>.</p>
+    <Head title="Početna stranica" />
+    <h1>Pozdrav!</h1>
+    <h2>Test testis</h2>
+    <p>Trebate li developera? <Link to="/contact">Kontaktirajte me</Link>.</p>
   </Layout>
   )
 }
